@@ -1,0 +1,14 @@
+Package: SBWPhenoData
+Type: Package
+Title: Larval development time of SBW populations at different temperatures
+Version: 0.1.0
+Author: Jean-Noel Candau
+Maintainer: Kala Studens <Kala.Studens@Canada.ca>
+Description: Post-diapause development time (in days) of different populations of spruce budworm reared at different constant temperatures
+    Several wild populations and one laboratory population of spruce budworm were reared at 7 constant temperatures during several generations. Each population was composed of 200 individuals when possible. The time required to molt to the next larval stage was recorded for each individual. To limit mortality at extreme temperatures (i.e. 5, 10, 30 and 35ºC) a pre-defined part of the stage development is spent at 20ºC before individuals are transfered to the experimental temperature.
+    Please refer to Wardlaw et al. (in progress) for details of the experimental design.
+License: file LICENSE
+Encoding: UTF-8
+Depends: R (>= 3.1.0)
+LazyData: true
+RoxygenNote: 6.1.1
