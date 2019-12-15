@@ -13,7 +13,7 @@ create_DevTimeSBWv2 <- function() {
 
   library(readxl)
 
-  sbw.path <- "./completed spreadsheets with txt files/"
+  sbw.path <- "./data-raw/completed spreadsheets with txt files/"
 
   files.list <- grep("^(?=.*xlsx)(?!.*~)",list.files(sbw.path),perl=TRUE,value=TRUE,ignore.case = TRUE)
 
@@ -333,7 +333,7 @@ create_DevTimeSBWv2 <- function() {
       # to set negative durations for less than a day (when stage changes in
       # less than a day) to 0
       if (test == 0) {
-        res.temp <- apply(res.temp[,unlist(lapply(res.temp,is.numeric))],2,function(x) ifelse(x<0,0,x))
+        res.temp[,unlist(lapply(res.temp,is.numeric))] <- apply(res.temp[,unlist(lapply(res.temp,is.numeric))],2,function(x) ifelse(x<0,0,x))
         res[[sheets[n]]] <- res.temp
       } else {
         stop(paste0("Negative duration for more than a day in ",sheets[[n]]))

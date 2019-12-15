@@ -1,7 +1,7 @@
 Package: SBWPhenoData
 Type: Package
 Title: Larval development time of SBW populations at different temperatures
-Version: 0.1.0
+Version: 0.2.0
 Author: Jean-Noel Candau
 Maintainer: Kala Studens <Kala.Studens@Canada.ca>
 Description: Post-diapause development time (in days) of different populations of spruce budworm reared at different constant temperatures
