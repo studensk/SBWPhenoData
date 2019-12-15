@@ -1,0 +1,60 @@
+Notes for all treatment data sheets
+
+There are sometimes extra moults between L5 and L6 (sometimes two), and after L6. 
+The amount of columns made for each treatment, though mostly blank, reflects this. 
+The difference between the “L5 extra moult” and “post L6 moult” is determined subjectively by looking at head cap size, 
+larva size, and larva colouration at the time of moult. 
+Skipped instars have the particular column/row filled in in pink and there will be no dates or times.
+Second diapause larvae’s remaining row once they’ve stopped moulting is coloured in in purple (and there are no more dates or times).
+If data was missed (not written down) for a certain instar they are coloured in in pale yellow. SOmetimes there are dates but no times, and those are also yellow.
+Dead are marked in gray and usually have a date ( extras (cups 201-250) deaths are not dated in the 15, 20, 25 degree, 
+and in some treatments, death date was lost if the data was not collected properly (lost lid etc)).
+
+Some cups didn’t do “prescribed time for that particular L stage” due to improper diagnosis of skippers or extra moults 
+at the time of moult or they were left in treatment too long or taken up too early by accident (marked in green).
+
+If a bug died or molted in treatment, only the first half of the L stage time will be filled in, the molt date and the time into treatment. 
+The date and time out never occurred and become either a death date, or a new molt date in the next column.
+
+Cup numbers not painted were deleted from the dataset. It will be noted below if the whole treatment was not painted.
+
+
+IPU_F0 General Notes
+
+Time in treatment for each L stage is different in subsequent rounds, especially for the 5 and 10 degree treatments. 
+THis was due to troubleshooting length of time spent in treatment to maximize moult timing 
+(was either too long and bugs were dying or molting in treat, or too short and bugs were taking too long to moult in the 20 degree).
+
+IPU2_10 and IPU2_15 exist because we stopped the first attempt (which I've deleted from the digital data but still exist on paper) and did another, 
+thinking that skippers were us doing something wrong. IPU2_20_F0 was a different method. Redid IPU_20_F0 in November/December 2019.
+
+IPU_5_F0
+
+nothing specific
+
+IPU2_10_F0
+
+nothing specific
+
+IPU2_15_F0
+
+nothing specific
+
+IPU_20_F0
+
+nothing specific
+
+IPU_30_F0
+
+nothing specific
+
+IPU_35_F0
+
+ the amount of "didn't do prescribed time" is high because at this beginner stage we were
+trying to "even out" how much time the bugs were doing in temp if they molted early (shortening the length of total time in treat if they didnt go to 20 degrees between molts). 
+we stopped doing that in subsequent rounds
+
+
+
+
+
