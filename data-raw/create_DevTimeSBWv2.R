@@ -13,7 +13,7 @@ create_DevTimeSBWv2 <- function() {
 
   library(readxl)
 
-  sbw.path <- "./data-raw/completed spreadsheets with txt files/"
+  sbw.path <- "~/Dropbox/sbw/completed spreadsheets with txt files/"
 
   files.list <- grep("^(?=.*xlsx)(?!.*~)",list.files(sbw.path),perl=TRUE,value=TRUE,ignore.case = TRUE)
 
