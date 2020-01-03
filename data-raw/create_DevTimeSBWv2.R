@@ -251,8 +251,8 @@ create_DevTimeSBWv2 <- function() {
     }
 
     # IPU_F0 is a bit of a mess for some temperatures such as 20ºC
-    if (files.list[f] == "IPU_F0 fixed EXCEPT 20.xlsx") {
-      sheets <- sheets[c(1:3,6:8)]
+    if (files.list[f] == "IPU_F0 fixed 20 ADDED.xlsx") {
+      sheets <- sheets[c(1:4,6:8)]
     }
 
     # Go through the sheets in an Excel file
