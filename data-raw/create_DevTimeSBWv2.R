@@ -1,6 +1,6 @@
 ################################################################################
 ## This code creates the object DevTimeSBWv2.
-##     - It takes Excel spreadsheets of reraing results created by Kerry in
+##     - It takes Excel spreadsheets of rearing results created by Kerry in
 ##       Oct-Dec 2019. I made some modifications of these files mostly to
 ##       correct the column names
 ##     - The object produced is a list of experiments (Prov_Temp_Gen), each
@@ -345,6 +345,7 @@ create_DevTimeSBWv2 <- function() {
     names(res) <- gsub("IPU2","IPU",names(res))
     names(res) <- gsub(" ","",names(res))
   }
+
   return(res)
 }
 
